@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.gan.AppTest" time="0.11" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="B:\gan\e3\SSM-manager\manager-pojo\target\test-classes;B:\gan\e3\SSM-manager\manager-pojo\target\classes;B:\Maven\repository\junit\junit\4.11\junit-4.11.jar;B:\Maven\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;B:\gan\e3\SSM-common\target\SSM-common.jar;B:\Maven\repository\joda-time\joda-time\2.5\joda-time-2.5.jar;B:\Maven\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;B:\Maven\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;B:\Maven\repository\commons-net\commons-net\3.3\commons-net-3.3.jar;B:\Maven\repository\com\fasterxml\jackson\core\jackson-databind\2.4.2\jackson-databind-2.4.2.jar;B:\Maven\repository\com\fasterxml\jackson\core\jackson-annotations\2.4.0\jackson-annotations-2.4.0.jar;B:\Maven\repository\com\fasterxml\jackson\core\jackson-core\2.4.2\jackson-core-2.4.2.jar;B:\Maven\repository\org\apache\httpcomponents\httpclient\4.3.5\httpclient-4.3.5.jar;B:\Maven\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;B:\Maven\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;B:\Maven\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;B:\Maven\repository\org\quartz-scheduler\quartz\2.2.2\quartz-2.2.2.jar;B:\Maven\repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;B:\Maven\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;B:\Maven\repository\org\slf4j\slf4j-log4j12\1.6.4\slf4j-log4j12-1.6.4.jar;B:\Maven\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;B:\Maven\repository\fastdfs_client\fastdfs_client\1.25\fastdfs_client-1.25.jar;B:\Maven\repository\redis\clients\jedis\2.7.2\jedis-2.7.2.jar;B:\Maven\repository\org\apache\commons\commons-pool2\2.3\commons-pool2-2.3.jar;B:\Maven\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="B:\java\jdk\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\12714\AppData\Local\Temp\surefire8776289745852375019\surefirebooter8497618326134275995.jar C:\Users\12714\AppData\Local\Temp\surefire8776289745852375019 2019-07-05T15-41-56_813-jvmRun1 surefire869512063766636118tmp surefire_04218225609265429121tmp"/>
+    <property name="surefire.test.class.path" value="B:\gan\e3\SSM-manager\manager-pojo\target\test-classes;B:\gan\e3\SSM-manager\manager-pojo\target\classes;B:\Maven\repository\junit\junit\4.11\junit-4.11.jar;B:\Maven\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;B:\gan\e3\SSM-common\target\SSM-common.jar;B:\Maven\repository\joda-time\joda-time\2.5\joda-time-2.5.jar;B:\Maven\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;B:\Maven\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;B:\Maven\repository\commons-net\commons-net\3.3\commons-net-3.3.jar;B:\Maven\repository\com\fasterxml\jackson\core\jackson-databind\2.4.2\jackson-databind-2.4.2.jar;B:\Maven\repository\com\fasterxml\jackson\core\jackson-annotations\2.4.0\jackson-annotations-2.4.0.jar;B:\Maven\repository\com\fasterxml\jackson\core\jackson-core\2.4.2\jackson-core-2.4.2.jar;B:\Maven\repository\org\apache\httpcomponents\httpclient\4.3.5\httpclient-4.3.5.jar;B:\Maven\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;B:\Maven\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;B:\Maven\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;B:\Maven\repository\org\quartz-scheduler\quartz\2.2.2\quartz-2.2.2.jar;B:\Maven\repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;B:\Maven\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;B:\Maven\repository\org\slf4j\slf4j-log4j12\1.6.4\slf4j-log4j12-1.6.4.jar;B:\Maven\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;B:\Maven\repository\fastdfs_client\fastdfs_client\1.25\fastdfs_client-1.25.jar;B:\Maven\repository\redis\clients\jedis\2.7.2\jedis-2.7.2.jar;B:\Maven\repository\org\apache\commons\commons-pool2\2.3\commons-pool2-2.3.jar;B:\Maven\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\12714"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="B:\java\jdk\jre"/>
+    <property name="basedir" value="B:\gan\e3\SSM-manager\manager-pojo"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\12714\AppData\Local\Temp\surefire8776289745852375019\surefirebooter8497618326134275995.jar"/>
+    <property name="sun.boot.class.path" value="B:\java\jdk\jre\lib\resources.jar;B:\java\jdk\jre\lib\rt.jar;B:\java\jdk\jre\lib\sunrsasign.jar;B:\java\jdk\jre\lib\jsse.jar;B:\java\jdk\jre\lib\jce.jar;B:\java\jdk\jre\lib\charsets.jar;B:\java\jdk\jre\lib\jfr.jar;B:\java\jdk\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="user.name" value="Badribbit"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="B:\java\jdk\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="B:\Maven\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\12714\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.dir" value="B:\gan\e3\SSM-manager\manager-pojo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="idea.version2019.1.1" value="true"/>
+    <property name="java.library.path" value="B:\java\jdk\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\xftp\xftp\;B:\java\jdk\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\SVN\bin;D:\SVN-service\bin;B:\学习资料\javaweb\【阶段07】web service\webservice\jar\apache-cxf-2.7.11\apache-cxf-2.7.11\bin;B:\Maven\apache-maven-3.3.9\bin;D:\SVN-Sever\bin;D:\SQLserver2008\110\DTS\Binn\;D:\SQLserver2008\86\110\Tools\Binn\;D:\SQLserver2008\110\Tools\Binn\;D:\SQLserver2008\86\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;D:\SQLserver2008\86\110\DTS\Binn\;B:\git\Git\cmd;B:\node.js\;B:\JAVAEverything\gradle\gradle-5.3.1\bin;D:\CurlTestHttp\curl-7.61.1-win64-mingw\bin;B:\Protobuf\bin;B:\python\Scripts\;B:\python\;C:\Users\12714\AppData\Local\Microsoft\WindowsApps;E:\youtube;B:\python\phantomjs-2.1.1-windows\bin;C:\Users\12714\AppData\Roaming\npm;B:\IDEA\IntelliJ IDEA 2018.3.6\bin;;B:\Thrift;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.ext.dirs" value="B:\java\jdk\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.gan.AppTest" time="0.002"/>
+</testsuite>

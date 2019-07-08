@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>SSM-manager</artifactId>
+        <groupId>com.gan</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>manager-dao</artifactId>
+
+    <name>manager-dao</name>
+    <!-- FIXME change it to the project's website -->
+    <url>http://www.example.com</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <artifactId>manager-pojo</artifactId>
+            <groupId>com.gan</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- 添加对mybatis的依赖 -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.miemiedev</groupId>
+            <artifactId>mybatis-paginator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+        </dependency>
+        <!-- MySql -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <!-- 连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+        </dependency>
+    </dependencies>
+
+    <!--
+    解决mapper绑定异常
+    如果不添加此节点mybatis的mapper.xml文件都会被漏掉。
+    由于maven工程在默认情况下src/main/java目录下的mapper文件是不发布到target目录下的 -->
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
+</project>
