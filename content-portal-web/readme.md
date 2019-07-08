@@ -1,6 +1,8 @@
 <h3>商城展示的表现层</h3>
 功能：实现跳转，轮播图展示.  
 技术：  
+
+
 1.controller :跳转index页面，并通过resource.properties文件里的id，
 作为查询轮播图的id。将查询出来的list存入model，前端取出。(轮播图技术)  
 2.resource.properties :作为配置轮播图的id  
