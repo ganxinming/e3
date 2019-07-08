@@ -1,6 +1,6 @@
 # e3宜立方商城
 ## :sunglasses:快速了解各个模块功能吧。
-以下根据项目搭建的顺序来叙述  
+## :grapes:以下根据项目搭建的顺序来叙述  
 1.SSM-manager ：后台管理模块  
 2.manager-web ：后台管理web展示模块  
 3.SSM-common  ：一些公共代码块，例如一些工具类，jsonUtils，cookiesUtils  
