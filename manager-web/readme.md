@@ -1,6 +1,7 @@
 
 <h3>后台管理web层</h3>
-功能:  
+功能  
+
 ContentCatController：内容分类管理（增加节点，删除节点)  
 ContentController: 为节点添加内容，一个节点对应多个不同内容    
 ItemCatController: 商品分类管理   
