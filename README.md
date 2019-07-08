@@ -1,5 +1,5 @@
 # e3宜立方商城
-## :sunglasses:快速了解各个模块功能吧。
+## :sunglasses:快速了解各个模块功能吧。- [SSM-manager](https://github.com/CyC2018/CS-Notes/blob/master/docs/notes/剑指%20offer%20题解.md)
 ## :dog: 以下根据项目搭建的顺序来叙述  
 ## :rabbit: 1.SSM-manager ：后台管理模块  
 ## :frog: 2.manager-web ：后台管理web展示模块  
