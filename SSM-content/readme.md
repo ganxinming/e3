@@ -1,6 +1,8 @@
 <h3>内容模块pom</h3>
 包含interface和service层。
 interface:没什么好讲的  
+
+
 service:  
 ContentServiceImpl:内容管理Service  
 ContentCategoryServiceImpl:内容分类管理Service（进行节点增加和删除）  
