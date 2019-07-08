@@ -1,8 +1,8 @@
 # e3宜立方商城
-## :sunglasses:快速了解各个模块功能吧。- [SSM-manager](https://github.com/CyC2018/CS-Notes/blob/master/docs/notes/剑指%20offer%20题解.md)
+## :sunglasses:快速了解各个模块功能吧。
 ## :dog: 以下根据项目搭建的顺序来叙述  
-## :rabbit: 1.SSM-manager ：后台管理模块  
-## :frog: 2.manager-web ：后台管理web展示模块  
+## :rabbit: 1.- [SSM-manager](https://github.com/CyC2018/CS-Notes/blob/master/docs/notes/剑指%20offer%20题解.md) ：后台管理模块  
+## :frog: 2.- [manager-web](https://github.com/CyC2018/CS-Notes/blob/master/docs/notes/剑指%20offer%20题解.md) ：后台管理web展示模块  
 ## :bear: 3.SSM-common  ：一些公共代码块，例如一些工具类，jsonUtils，cookiesUtils  
 ## :tiger: 4.SSM-content : 内容模块，完成商城首页逻辑功能。  
 ## :cow: 5.content-portal-web:内容展示模块，完成商城首页展示。  
