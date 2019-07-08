@@ -1,5 +1,5 @@
 <h3>后台管理manager</h3>
-功能:    
+功能:  
 dao:一些mapper和mapper.xml（逆向工程生成)         
 pojo: 普通的pojo类，最好都实现seralizable接口，便于dubbo传输    
 service:
