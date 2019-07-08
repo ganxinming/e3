@@ -1,6 +1,7 @@
 
 <h3>商品详情页面展示</h3>
 功能：  
+
 ItemController：根据商品id，查询商品和详细信息，存入request，前端展示。  
 HtmlGenController: 用于测试Freemarker，模板生成.html
 
